@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import LandingPage from "./pages/LandingPage";
+import CaseStudies from "./pages/CaseStudies";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -17,6 +18,7 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path="/about" component={About} />
       <Route path="/services" component={Services} />
+      <Route path="/case-studies" component={CaseStudies} />
       <Route path="/contact" component={Contact} />
       <Route path="/landing" component={LandingPage} />
       <Route path={"/404"} component={NotFound} />

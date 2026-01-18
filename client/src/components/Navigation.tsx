@@ -15,6 +15,7 @@ export default function Navigation({ minimal = false }: NavigationProps) {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/services", label: "Services" },
+    { href: "/case-studies", label: "Case Studies" },
     { href: "/contact", label: "Contact" },
   ];
 

@@ -1,11 +1,15 @@
 import Navigation from "@/components/Navigation";
 import ConsultationForm from "@/components/ConsultationForm";
+import LinkedInPixel from "@/components/LinkedInPixel";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Shield, Award, Globe } from "lucide-react";
 
 export default function LandingPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      {/* LinkedIn Pixel - Replace 'YOUR_PARTNER_ID' with actual Partner ID from LinkedIn Campaign Manager */}
+      <LinkedInPixel partnerId="YOUR_PARTNER_ID" />
+      
       <Navigation minimal />
 
       {/* Hero Section with Form */}

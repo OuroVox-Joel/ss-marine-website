@@ -1,14 +1,20 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import ConsultationForm from "@/components/ConsultationForm";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
-import { Shield, Anchor, Users, CheckCircle2, Globe, Award } from "lucide-react";
+import { Shield, Anchor, Users, CheckCircle2, Globe, Award, ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="S&S Marine Consulting | Trusted Advisors to Port Authorities"
+        description="Expert maritime consulting for port authorities and infrastructure leaders. VTS systems, port operations, safety management, and offshore services. 25+ years experience on projects like JCPDI Saudi Arabia."
+        keywords="maritime consulting, port consulting, VTS systems, vessel traffic services, port operations, marine safety, offshore consulting, port development, JCPDI, Saudi Arabia ports, maritime infrastructure"
+      />
       <Navigation />
 
       {/* Hero Section */}
@@ -160,36 +166,50 @@ export default function Home() {
             Real Projects. Real Results.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="relative overflow-hidden rounded-lg aspect-video">
-              <img
-                src="/images/jcpdi-container-ship.jpg"
-                alt="First container ship at JCPDI"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                <p className="text-white font-semibold">JCPDI Port Operations</p>
+            <Link href="/case-studies">
+              <div className="relative overflow-hidden rounded-lg aspect-video cursor-pointer">
+                <img
+                  src="/FirstcontainershipJCPDI.jpg"
+                  alt="First container ship at JCPDI"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <p className="text-white font-semibold">JCPDI Port Operations</p>
+                </div>
               </div>
-            </div>
-            <div className="relative overflow-hidden rounded-lg aspect-video">
-              <img
-                src="/images/torpedo-anchor-handling.jpg"
-                alt="Torpedo anchor handling operations"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                <p className="text-white font-semibold">Offshore Anchor Handling</p>
+            </Link>
+            <Link href="/case-studies">
+              <div className="relative overflow-hidden rounded-lg aspect-video cursor-pointer">
+                <img
+                  src="/TorpedoanchorhandlingSantosBasinBrasil.jpg"
+                  alt="Torpedo anchor handling operations"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <p className="text-white font-semibold">Offshore Anchor Handling</p>
+                </div>
               </div>
-            </div>
-            <div className="relative overflow-hidden rounded-lg aspect-video">
-              <img
-                src="/images/fpso-hookup.jpg"
-                alt="FPSO hookup operations"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                <p className="text-white font-semibold">FPSO Operations</p>
+            </Link>
+            <Link href="/case-studies">
+              <div className="relative overflow-hidden rounded-lg aspect-video cursor-pointer">
+                <img
+                  src="/HookUpofFPSOCidadedeMangaratiba.jpg"
+                  alt="FPSO hookup operations"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <p className="text-white font-semibold">FPSO Operations</p>
+                </div>
               </div>
-            </div>
+            </Link>
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/case-studies">
+              <Button variant="outline" size="lg" className="bg-background">
+                View Detailed Case Studies
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
