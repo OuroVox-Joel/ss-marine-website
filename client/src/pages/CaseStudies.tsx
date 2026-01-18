@@ -43,7 +43,8 @@ export default function CaseStudies() {
         <div className="container max-w-6xl">
           <div className="space-y-16">
             {/* Case Study 1: JCPDI Seamless Transition */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <Link href="/case-study/jcpdi-transition">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center cursor-pointer hover:opacity-90 transition-opacity">
               <div>
                 <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-semibold mb-4">
                   <Ship className="w-4 h-4" />
@@ -114,8 +115,10 @@ export default function CaseStudies() {
                 />
               </div>
             </div>
+            </Link>
 
             {/* Case Study 2: South America Incident Reduction */}
+            <Link href="/case-study/south-america-incident-reduction">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
                 <img
@@ -185,8 +188,10 @@ export default function CaseStudies() {
                 </div>
               </div>
             </div>
+            </Link>
 
             {/* Case Study 3: Bridge Resource Management Training */}
+            <Link href="/case-study/bridge-resource-management">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -257,6 +262,7 @@ export default function CaseStudies() {
                 />
               </div>
             </div>
+            </Link>
 
             {/* Lessons Learned Section */}
             <div className="bg-primary text-primary-foreground p-12 rounded-lg">

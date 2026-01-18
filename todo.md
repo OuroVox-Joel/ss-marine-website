@@ -64,3 +64,25 @@
 - [x] Include detailed case study narratives
 - [ ] Add client testimonials section (future)
 - [ ] Create FAQ section addressing common concerns (future)
+
+## Phase 3: Individual Case Study Pages (Blog-Style Treatment)
+
+### Individual Case Study Pages
+- [x] Create dedicated page for JCPDI case study with blog-style narrative
+- [x] Create dedicated page for South America incident reduction case study
+- [x] Create dedicated page for Bridge Resource Management training case study
+- [x] Add multiple images to each case study page
+- [x] Implement rich storytelling with problem/solution/outcome structure
+- [x] Add SEO optimization targeting regional search queries
+- [x] Update main Case Studies page to link to individual stories
+- [x] Add related case studies section at bottom of each page
+- [x] Include clear CTAs on each case study page
+
+### SEO Keywords to Target
+- [x] "port transition planning Saudi Arabia"
+- [x] "marine services changeover risks"
+- [x] "reducing port insurance claims"
+- [x] "VTS training simulation"
+- [x] "port safety management Africa"
+- [x] "maritime incident reduction"
+- [x] "port operations consulting Middle East"
