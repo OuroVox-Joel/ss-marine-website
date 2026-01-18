@@ -25,4 +25,21 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
-// TODO: Add your tables here
+/**
+ * Consultation requests from potential clients
+ */
+export const consultationRequests = mysqlTable("consultation_requests", {
+  id: int("id").autoincrement().primaryKey(),
+  name: varchar("name", { length: 255 }).notNull(),
+  email: varchar("email", { length: 320 }).notNull(),
+  country: varchar("country", { length: 255 }).notNull(),
+  region: varchar("region", { length: 255 }),
+  serviceInterest: text("service_interest"),
+  message: text("message"),
+  source: varchar("source", { length: 50 }).notNull().default("website"), // 'website' or 'landing_page'
+  status: mysqlEnum("status", ["new", "contacted", "qualified", "closed"]).default("new").notNull(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+export type ConsultationRequest = typeof consultationRequests.$inferSelect;
+export type InsertConsultationRequest = typeof consultationRequests.$inferInsert;
