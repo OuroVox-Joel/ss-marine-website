@@ -82,13 +82,13 @@ export default function LandingPage() {
                   <div className="flex items-center gap-3">
                     <Shield className="w-5 h-5 text-accent" />
                     <p className="text-sm">
-                      <span className="font-semibold">25+ Years Combined Experience</span> in maritime strategy, execution, and training
+                      <span className="font-semibold">40+ Years Combined Experience</span> in maritime strategy, execution, and training
                     </p>
                   </div>
                   <div className="flex items-center gap-3">
                     <Globe className="w-5 h-5 text-accent" />
                     <p className="text-sm">
-                      <span className="font-semibold">Multilingual Experts</span> - English, Portuguese, Spanish
+                      <span className="font-semibold">Multilingual Experts</span> - English, Danish, Portuguese, Spanish
                     </p>
                   </div>
                 </div>

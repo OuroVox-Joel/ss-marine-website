@@ -12,7 +12,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <SEO
         title="S&S Marine Consulting | Trusted Advisors to Port Authorities"
-        description="Expert maritime consulting for port authorities and infrastructure leaders. VTS systems, port operations, safety management, and offshore services. 25+ years experience on projects like JCPDI Saudi Arabia."
+        description="Expert maritime consulting for port authorities and infrastructure leaders. VTS systems, port operations, safety management, and offshore services. Over 40 years combined experience on projects like JCPDI Saudi Arabia."
         keywords="maritime consulting, port consulting, VTS systems, vessel traffic services, port operations, marine safety, offshore consulting, port development, JCPDI, Saudi Arabia ports, maritime infrastructure"
       />
       <Navigation />
@@ -137,8 +137,8 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-bold mb-2">Multilingual & Multicultural</h3>
                 <p className="text-foreground/80">
-                  Fluent in English, Portuguese, and Spanish. We understand the cultural nuances and 
-                  regulatory landscapes of Africa, South America, Southeast Asia, and the Middle East.
+                  Fluent in English, Danish, Portuguese, and Spanish. We understand the cultural nuances and 
+                  regulatory landscapes of Africa, Europe, South America, Southeast Asia, and the Middle East.
                 </p>
               </div>
             </div>

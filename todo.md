@@ -86,3 +86,16 @@
 - [x] "port safety management Africa"
 - [x] "maritime incident reduction"
 - [x] "port operations consulting Middle East"
+
+## Phase 4: Content Updates and GitHub Export
+
+### Content Updates
+- [x] Update language capabilities to English, Danish, Portuguese, Spanish
+- [x] Update combined experience from 25+ years to 40+ years
+- [x] Update trust signals section on Home page
+- [x] Update Footer, Contact, Landing pages with new languages
+- [x] Update case study references to include Danish
+
+### GitHub Export
+- [ ] Export code to GitHub repository
+- [ ] Verify successful export

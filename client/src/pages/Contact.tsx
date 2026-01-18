@@ -119,8 +119,8 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold mb-2">Multilingual Support</h3>
                       <p className="text-sm text-foreground/80">
-                        We communicate fluently in English, Portuguese, and Spanish to serve 
-                        clients across Africa, South America, Southeast Asia, and the Middle East.
+                        We communicate fluently in English, Danish, Portuguese, and Spanish to serve 
+                        clients across Africa, Europe, South America, Southeast Asia, and the Middle East.
                       </p>
                     </div>
                   </div>

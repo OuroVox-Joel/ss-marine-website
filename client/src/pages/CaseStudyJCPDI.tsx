@@ -152,7 +152,7 @@ export default function CaseStudyJCPDI() {
               </li>
               <li>
                 <strong>Communication Protocols:</strong> Established clear communication channels 
-                across multiple languages (English, Arabic, Portuguese) and organizational hierarchies
+                across multiple languages (English, Danish, Arabic, Portuguese) and organizational hierarchies
               </li>
             </ul>
 
@@ -252,7 +252,7 @@ export default function CaseStudyJCPDI() {
             <p>
               In a multilingual, multicultural environment, clear communication protocols aren't just 
               nice to have—they're life-or-death. We established standardized communication procedures 
-              that worked across English, Arabic, and Portuguese, with built-in redundancy for 
+              that worked across English, Danish, Arabic, and Portuguese, with built-in redundancy for 
               critical safety communications.
             </p>
 

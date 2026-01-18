@@ -66,7 +66,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-primary-foreground/80">
               <li>Multilingual Support</li>
-              <li>English, Portuguese, Spanish</li>
+              <li>English, Danish, Portuguese, Spanish</li>
               <li className="pt-2">
                 <Link href="/contact">
                   <a className="text-accent hover:text-accent/90 transition-colors font-medium">
