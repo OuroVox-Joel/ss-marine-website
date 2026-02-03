@@ -57,12 +57,12 @@ export default function Home() {
             <Card className="border-2 border-primary/10 hover:border-primary/30 transition-colors">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                  <Anchor className="w-8 h-8 text-primary" />
+                  <img src="/logo-lighthouse.jpeg" alt="S&S Marine Lighthouse Logo" className="w-8 h-8" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Marine Service Project Management</h3>
+                <h3 className="text-2xl font-bold mb-4">Port Authority & Strategic Development</h3>
                 <p className="text-foreground/80">
-                  Expert oversight of offshore support, anchor handling, and marine service operations. 
-                  From planning to execution, we ensure operational excellence and safety compliance.
+                  Strategic governance, regulatory frameworks, and operational architecture for greenfield and established ports. 
+                  We architect the foundation for safe, efficient port operations that scale with your ambitions.
                 </p>
               </CardContent>
             </Card>

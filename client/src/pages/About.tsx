@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import { Award, Briefcase, GraduationCap, Ship } from "lucide-react";
+import { Award, Briefcase, GraduationCap, Ship, Users } from "lucide-react";
 
 export default function About() {
   return (
@@ -26,7 +26,7 @@ export default function About() {
       <section className="py-16 md:py-24">
         <div className="container max-w-6xl">
           <div className="space-y-16">
-            {/* Torbin Solmer */}
+            {/* Torben Solmer */}
             <Card className="overflow-hidden">
               <CardContent className="p-0">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -34,12 +34,12 @@ export default function About() {
                     <div className="w-48 h-48 rounded-full bg-primary/10 flex items-center justify-center mb-6">
                       <img
                         src="/images/jcpdi-management-visit.jpg"
-                        alt="Torbin Solmer at JCPDI"
+                        alt="Torben Solmer at JCPDI"
                         className="w-full h-full object-cover rounded-full"
                       />
                     </div>
-                    <h3 className="text-2xl font-bold text-center mb-2">Torbin Solmer, MNI</h3>
-                    <p className="text-foreground/60 text-center">Senior Maritime Expert</p>
+                    <h3 className="text-2xl font-bold text-center mb-2">Torben Solmer, MNI</h3>
+                    <p className="text-foreground/60 text-center">Master Mariner | Port Management Executive</p>
                   </div>
                   <div className="md:col-span-2 p-8">
                     <div className="space-y-6">
@@ -50,10 +50,7 @@ export default function About() {
                         <div>
                           <h4 className="font-semibold mb-2">Current Role</h4>
                           <p className="text-foreground/80">
-                            Subject Matter Expert (SME) to senior port leaders at JCPDI (Jazan Economic City 
-                            for Primary and Downstream Industries), one of Saudi Arabia's most ambitious port 
-                            development projects. Provides strategic advisory on operational architecture, 
-                            VTS systems, and IMO/IALA compliance.
+                            Deputy Harbour Master at JCPDI (Jazan City for Primary and Downstream Industries) Port Authority, Royal Commission, Saudi Arabia. Instrumental in building the regulatory framework for this greenfield port, overseeing marine operations, governance, and strategic development.
                           </p>
                         </div>
                       </div>
@@ -63,11 +60,9 @@ export default function About() {
                           <Ship className="w-6 h-6 text-accent" />
                         </div>
                         <div>
-                          <h4 className="font-semibold mb-2">Maritime Experience</h4>
+                          <h4 className="font-semibold mb-2">Maritime & Leadership Experience</h4>
                           <p className="text-foreground/80">
-                            Former Captain at Maersk Supply Services with 4 years of operational command at sea. 
-                            Extensive background in offshore operations, vessel traffic management, and maritime 
-                            safety systems. Deep expertise in VTS design and optimization.
+                            Master Mariner with command experience at sea. Team Leader at FORCE Technology (2017-2020), managing the DanSim maritime training facility with 7 ship simulators and teams of Master Mariners and Engineers. Senior Marine Superintendent at Maersk Supply Service (2014-2017) with expertise in offshore operations and vessel traffic management.
                           </p>
                         </div>
                       </div>
@@ -77,11 +72,9 @@ export default function About() {
                           <GraduationCap className="w-6 h-6 text-accent" />
                         </div>
                         <div>
-                          <h4 className="font-semibold mb-2">Technical Background</h4>
+                          <h4 className="font-semibold mb-2">Core Competencies</h4>
                           <p className="text-foreground/80">
-                            Force Technology simulation center background, specializing in advanced maritime 
-                            simulation and training systems. Expert in operational risk assessment and 
-                            regulatory compliance frameworks.
+                            Port Authority Management, VTS procedures and IALA compliance, Harbour Master instructions, Seafarer Mental Health & Crew Wellbeing, Operational Safety & Compliance, Maritime Training & Simulation, New Building & Commissioning, Offshore Operations (DP, torpedo anchor handling, subsea construction).
                           </p>
                         </div>
                       </div>
@@ -91,10 +84,9 @@ export default function About() {
                           <Award className="w-6 h-6 text-accent" />
                         </div>
                         <div>
-                          <h4 className="font-semibold mb-2">Certifications</h4>
+                          <h4 className="font-semibold mb-2">Languages & Certifications</h4>
                           <p className="text-foreground/80">
-                            Member of the Nautical Institute (MNI). Certified in IMO/IALA standards for 
-                            Vessel Traffic Services and port operations management.
+                            Member of the Nautical Institute (MNI). Languages: Danish (native), English (full proficiency), German (proficiency), Portuguese (basic). Certified in IMO/IALA standards and port operations management.
                           </p>
                         </div>
                       </div>
@@ -117,7 +109,7 @@ export default function About() {
                       />
                     </div>
                     <h3 className="text-2xl font-bold text-center mb-2">Rui dos Santos, AFNI</h3>
-                    <p className="text-foreground/60 text-center">Port Operations Specialist</p>
+                    <p className="text-foreground/60 text-center">Master Mariner | Port Operations & Marine Services Expert</p>
                   </div>
                   <div className="md:col-span-2 p-8">
                     <div className="space-y-6">
@@ -126,11 +118,9 @@ export default function About() {
                           <Briefcase className="w-6 h-6 text-accent" />
                         </div>
                         <div>
-                          <h4 className="font-semibold mb-2">Industry Leadership</h4>
+                          <h4 className="font-semibold mb-2">Current & Recent Leadership</h4>
                           <p className="text-foreground/80">
-                            Former Country Manager for Svitzer, a leading global marine service provider. 
-                            Led national operations for towage services, terminal startups, and fleet management. 
-                            Proven track record of scaling marine operations across multiple markets.
+                            Acting COO / Deputy COO at JCPDI Port Authority (Royal Commission, Saudi Arabia). Led the Human Elements - TEAM Programme at P&O Maritime Logistics, designing and deploying company-wide human factors and behavioral safety programs across worldwide operations. Extensive experience implementing marine services across multiple continents.
                           </p>
                         </div>
                       </div>
@@ -140,11 +130,9 @@ export default function About() {
                           <Ship className="w-6 h-6 text-accent" />
                         </div>
                         <div>
-                          <h4 className="font-semibold mb-2">Operational Expertise</h4>
+                          <h4 className="font-semibold mb-2">Global Operational Expertise</h4>
                           <p className="text-foreground/80">
-                            Specialist in towage operations, pilotage services, and terminal operational excellence. 
-                            Expert in fleet optimization, tug deployment strategies, and marine service contract 
-                            management. Deep understanding of port logistics and terminal efficiency.
+                            Master Mariner with command experience on multiple vessel types. Implemented marine services in Dominican Republic (Caucedo), Paraguay/Paraná Rivers (achieving ~90% reduction in insurance claims), Peru, Papua New Guinea, and Mozambique (Maputo, Nacala). Specialist in towage operations, pilotage services, fleet optimization, and terminal operational excellence.
                           </p>
                         </div>
                       </div>
@@ -154,11 +142,9 @@ export default function About() {
                           <GraduationCap className="w-6 h-6 text-accent" />
                         </div>
                         <div>
-                          <h4 className="font-semibold mb-2">Academic Contributions</h4>
+                          <h4 className="font-semibold mb-2">Training & Development</h4>
                           <p className="text-foreground/80">
-                            Lecturer in marine logistics and training programs. Combines real-world operational 
-                            experience with academic rigor to develop workforce training curricula and 
-                            nationalization strategies for port authorities.
+                            Maritime Education & Simulator Training at CPUT (Cape Peninsula University of Technology), Cape Town. Delivered navigation, ship handling, and IMO-mandated STCW courses. Specialized in Suez Canal ULCC passage training with advanced bank effect management and shallow water hydrodynamics.
                           </p>
                         </div>
                       </div>
@@ -168,10 +154,62 @@ export default function About() {
                           <Award className="w-6 h-6 text-accent" />
                         </div>
                         <div>
-                          <h4 className="font-semibold mb-2">Certifications</h4>
+                          <h4 className="font-semibold mb-2">Languages & Certifications</h4>
                           <p className="text-foreground/80">
-                            Associate Fellow of the Nautical Institute (AFNI). Certified in marine operations 
-                            management, towage operations, and port safety systems.
+                            Associate Fellow of the Nautical Institute (AFNI). Languages: Danish (mother tongue), English (full proficiency), German (proficiency), Portuguese (basic). Certified Lead Investigator (KELVIN TOPSET) and ISM Lead Auditor. Port Management Diploma (Lloyds Maritime Academy, 2023).
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            {/* Miguel - Free Agent Consultant */}
+            <Card className="overflow-hidden">
+              <CardContent className="p-0">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div className="md:col-span-1 bg-secondary p-8 flex flex-col items-center justify-center">
+                    <div className="w-48 h-48 rounded-full bg-primary/10 flex items-center justify-center mb-6">
+                      <Users className="w-24 h-24 text-primary" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-center mb-2">Miguel</h3>
+                    <p className="text-foreground/60 text-center">Consultant & Network Strategist</p>
+                  </div>
+                  <div className="md:col-span-2 p-8">
+                    <div className="space-y-6">
+                      <div className="flex gap-4">
+                        <div className="flex-shrink-0">
+                          <Briefcase className="w-6 h-6 text-accent" />
+                        </div>
+                        <div>
+                          <h4 className="font-semibold mb-2">Strategic Role</h4>
+                          <p className="text-foreground/80">
+                            Free agent consultant and network strategist. Brings extensive high-level contacts and a robust professional network across the maritime and port industries. Identifies and engages with opportunities that align with S&S Marine's expertise and strategic direction.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="flex gap-4">
+                        <div className="flex-shrink-0">
+                          <Ship className="w-6 h-6 text-accent" />
+                        </div>
+                        <div>
+                          <h4 className="font-semibold mb-2">Network & Relationships</h4>
+                          <p className="text-foreground/80">
+                            Deep connections within the maritime consulting, port authority, and classification society sectors. Facilitates partnerships and opportunities with key industry players, including relationships with leading classification societies like DNV (Det Norske Veritas).
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="flex gap-4">
+                        <div className="flex-shrink-0">
+                          <Award className="w-6 h-6 text-accent" />
+                        </div>
+                        <div>
+                          <h4 className="font-semibold mb-2">Approach</h4>
+                          <p className="text-foreground/80">
+                            Focuses on network-based growth and relationship-driven business development. Works collaboratively with Torben and Rui to identify projects that leverage the team's collective expertise and create meaningful impact in the maritime industry.
                           </p>
                         </div>
                       </div>

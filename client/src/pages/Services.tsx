@@ -39,14 +39,14 @@ export default function Services() {
       <section className="py-16 md:py-24">
         <div className="container">
           <div className="space-y-16">
-            {/* Category 1: Strategic Governance & Compliance */}
+            {/* Category 1: Port Authority & Strategic Development */}
             <div>
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                  Strategic Governance & Compliance
+                  Port Authority & Strategic Development
                 </h2>
                 <p className="text-lg text-foreground/80 max-w-3xl mx-auto">
-                  Establish the regulatory foundation and operational frameworks that ensure 
+                  Establish the regulatory foundation, governance frameworks, and operational architecture that ensure 
                   your port operates safely, efficiently, and in full compliance with international standards.
                 </p>
               </div>
