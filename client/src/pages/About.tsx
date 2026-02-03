@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import { Award, Briefcase, GraduationCap, Ship, Users } from "lucide-react";
+import { Award, Briefcase, GraduationCap, Ship } from "lucide-react";
 
 export default function About() {
   return (
@@ -165,59 +165,7 @@ export default function About() {
                 </div>
               </CardContent>
             </Card>
-            {/* Miguel - Free Agent Consultant */}
-            <Card className="overflow-hidden">
-              <CardContent className="p-0">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  <div className="md:col-span-1 bg-secondary p-8 flex flex-col items-center justify-center">
-                    <div className="w-48 h-48 rounded-full bg-primary/10 flex items-center justify-center mb-6">
-                      <Users className="w-24 h-24 text-primary" />
-                    </div>
-                    <h3 className="text-2xl font-bold text-center mb-2">Miguel</h3>
-                    <p className="text-foreground/60 text-center">Consultant & Network Strategist</p>
-                  </div>
-                  <div className="md:col-span-2 p-8">
-                    <div className="space-y-6">
-                      <div className="flex gap-4">
-                        <div className="flex-shrink-0">
-                          <Briefcase className="w-6 h-6 text-accent" />
-                        </div>
-                        <div>
-                          <h4 className="font-semibold mb-2">Strategic Role</h4>
-                          <p className="text-foreground/80">
-                            Free agent consultant and network strategist. Brings extensive high-level contacts and a robust professional network across the maritime and port industries. Identifies and engages with opportunities that align with S&S Marine's expertise and strategic direction.
-                          </p>
-                        </div>
-                      </div>
 
-                      <div className="flex gap-4">
-                        <div className="flex-shrink-0">
-                          <Ship className="w-6 h-6 text-accent" />
-                        </div>
-                        <div>
-                          <h4 className="font-semibold mb-2">Network & Relationships</h4>
-                          <p className="text-foreground/80">
-                            Deep connections within the maritime consulting, port authority, and classification society sectors. Facilitates partnerships and opportunities with key industry players, including relationships with leading classification societies like DNV (Det Norske Veritas).
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="flex gap-4">
-                        <div className="flex-shrink-0">
-                          <Award className="w-6 h-6 text-accent" />
-                        </div>
-                        <div>
-                          <h4 className="font-semibold mb-2">Approach</h4>
-                          <p className="text-foreground/80">
-                            Focuses on network-based growth and relationship-driven business development. Works collaboratively with Torben and Rui to identify projects that leverage the team's collective expertise and create meaningful impact in the maritime industry.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
